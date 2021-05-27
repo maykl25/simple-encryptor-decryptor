@@ -16,8 +16,6 @@ public class Work {
 
     /**
      * method chooseCypher() allows to choose preferable type of encryption/decryption algorithm.
-     * @param alg
-     * @return
      */
 
     public static Cypher chooseCypher(String alg) {
@@ -37,10 +35,6 @@ public class Work {
 
     /**
      * method action() allows to choose where to write encrypted/decrypted data - to console or to file.
-     * @param option
-     * @param number
-     * @param text
-     * @param cypher
      */
 
     public static void action(String option, int number, String text, Cypher cypher) {
@@ -67,8 +61,6 @@ public class Work {
 
     /**
      * method readFromFile() allows to read data for encryption/decryption from side file.
-     * @param fileName
-     * @return
      */
 
     static String readFromFile(String fileName) {
@@ -86,7 +78,6 @@ public class Work {
 
     /**
      * special method menu() allows to read command line arguments.
-     * @param array
      */
 
     public  void menu(String[] array) {
