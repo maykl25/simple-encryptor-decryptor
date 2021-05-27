@@ -13,8 +13,6 @@ public abstract class Cypher {
 
     /**
      * method writeToFile() allows write result of encryption/decryption on file.
-     * @param text
-     * @param fileName
      */
 
     static void writeToFile(String text, String fileName) {
